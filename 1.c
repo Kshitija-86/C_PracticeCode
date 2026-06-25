@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+void  main(){
 int a,b;
     printf("Enter number a\n");
     scanf("%d", &a);
@@ -9,7 +9,4 @@ int a,b;
      scanf("%d", &b);
 
      printf("The Sum is %d\n", a+b );
-
-
-    return 0;
 }
